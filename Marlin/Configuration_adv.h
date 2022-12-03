@@ -1221,7 +1221,7 @@
  * vibration and surface artifacts. The algorithm adapts to provide the best possible step smoothing at the
  * lowest stepping frequencies.
  */
-#define ADAPTIVE_STEP_SMOOTHING
+//#define ADAPTIVE_STEP_SMOOTHING  // Workaround to fix interrrupt handling in SKR MINIE3V3
 
 /**
  * Custom Microstepping
